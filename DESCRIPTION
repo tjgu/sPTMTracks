@@ -1,11 +1,17 @@
 Package: sptmtracks
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Title: sPTMTracks: Linking Site Specific Protein Modifications to Structure and Disease Biology​
+Version: 0.99.0
+Date: 2026-11-23
+Authors@R: c(
+    person(given = "Shriramprasad", family = "Venkatesan",
+           email = "srira25@gmail.com", role = c("aut", "cre")),
+    person(given = "Tongjun", family = "Gu",
+           email = "tgu@versiti.org", role = "aut"))
+Description: Understanding how post-translational modifications (PTMs), including glycosylation, influence protein function and disease requires integrating three complementary dimensions: which residues are modified, how modification levels vary across patient samples, and where modified residues occur within protein sequence and three-dimensional structure. Existing PTM visualization tools are often limited to pre-annotated sites or sequence-level displays and generally do not integrate quantitative mass spectrometry (MS) data with structural context and patient-level clinical variables. sPTMtracks is an Rshiny dashboard which addresses this gap by providing an interface for interactive visualization of site-specific PTMs that integrates quantitative MS measurements with the linear protein sequence and AlphaFold-predicted three-dimensional structure.
+License: Artistic-2.0
+URL: https://github.com/tjgu/sPTMTracks
+BugReports: https://github.com/tjgu/sPTMTracks/issues/
+biocViews: Software
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
