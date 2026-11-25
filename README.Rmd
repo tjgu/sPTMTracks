@@ -4,6 +4,7 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+
 ```{r, include = FALSE}
 knitr::opts_chunk$set(collapse = TRUE, comment = "#>", fig.path = "man/figures/README-", out.width = "100%")
 ```
@@ -34,7 +35,7 @@ if (!requireNamespace("BiocManager", quietly = TRUE)) {
     install.packages("BiocManager")
 }
 
-BiocManager::install("sptmtracks")
+# BiocManager::install("sptmtracks")
 ```
 
 And the development version from [GitHub](https://github.com/tjgu/sPTMTracks) with:

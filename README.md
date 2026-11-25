@@ -52,7 +52,7 @@ if (!requireNamespace("BiocManager", quietly = TRUE)) {
     install.packages("BiocManager")
 }
 
-BiocManager::install("sptmtracks")
+# BiocManager::install("sptmtracks")
 ```
 
 And the development version from
