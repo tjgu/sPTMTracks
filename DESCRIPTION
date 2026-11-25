@@ -22,4 +22,23 @@ Suggests:
     rmarkdown,
     sessioninfo,
     testthat
+Imports:
+    NGLVieweR,
+    RColorBrewer,
+    bslib,
+    dplyr,
+    forcats,
+    glue,
+    heatmaply,
+    htmltools,
+    httr,
+    httr2,
+    plotly,
+    purrr,
+    shiny,
+    shinyWidgets,
+    shinycssloaders,
+    stringr,
+    tibble,
+    tidyr
 VignetteBuilder: knitr

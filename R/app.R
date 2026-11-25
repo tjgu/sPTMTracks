@@ -33,7 +33,7 @@ app_ui <- function(dataset_name) {
                                                   "justify-content: space-between; align-items: center;"),
                                     shiny::div(shiny::span("sPTMTracks",
                                                            style = "font-size: 18px; font-weight: 600;"),
-                                               shiny::span(glue::glue(" · {dataset_name}"),
+                                               shiny::span(glue::glue(" \u00b7 {dataset_name}"),
                                                            style = "font-size: 14px; opacity: 0.75;"))),
                          shiny::sidebarLayout(sidebarPanel = shiny::sidebarPanel(shinyWidgets::pickerInput(inputId = "comparison", label = "Comparison", choices = NULL,
                                                                                                            options = shinyWidgets::pickerOptions(liveSearch   = TRUE,
